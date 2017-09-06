@@ -20,7 +20,7 @@ function createWindow() {
   BrowserWindow.addDevToolsExtension(`${__dirname}/../devtools/react`);
 
   win.on('closed', () => {
-    window = null;
+
   });
 }
 
